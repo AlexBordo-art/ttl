@@ -23,6 +23,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 23
+          run: node -v && npm -v  
 
       - name: Install dependencies
         run: npm install
